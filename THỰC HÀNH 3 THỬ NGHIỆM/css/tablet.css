@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px) {
+  /* NAVBAR */
+  #nav-bar .container {
+    width: 100%;
+  }
+
+  .my_image {
+    display: none;
+  }
+
+  .full-name {
+    width: 0;
+  }
+
+  /* KINH NGHIỆM */
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+  }
+
+  #job-info .grid-item {
+    height: auto;
+  }
+
+  /* icon */
+  .grid-item .icon {
+    padding-top: 10px;
+    margin-left: -15px;
+    align-self: start;
+  }
+
+  /*Đặt số cột cho sở thích */
+  .grid-item .hobby {
+    --spacing: 0px;
+    --column: 3;
+  }
+
+  .hobby-text {
+    font-size: 0.75rem;
+    padding-top: 10px;
+  }
+
+  .grid-item .hobby .hobby-item:last-child {
+    margin-top: -50px;
+  }
+
+  /* CHỨNG CHỈ - GIẢI THƯỞNG */
+  .content-web,
+  .content-javascript,
+  .content-database {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* Image */
+  #certificate img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* DỰ ÁN */
+  /* bố cục dự án--thu hẹp spacing giữa các cột */
+  #project .section-content {
+    gap: 10px;
+    font-size: 0.75rem;
+  }
+
+  .icon--project .year-project {
+    margin-top: -25px;
+  }
+
+  /* vị trí  công việc */
+  .icon--project .position-job {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* PHẦN NÂNG CAO--TẠO THÊM PROJECT CHAPTER */
+
+  /* KẾT HỢP VỚI BOOTSTRAP */
+  .project-charter--content {
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #project-charter {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .goal-icon i,
+  .primary-icon i,
+  .team-icon i {
+    font-size: 35px;
+  }
+
+  /* TIMELINE */
+  .timeline-item {
+    border-bottom: 1px dashed blue;
+  }
+
+  .timeline-content .timeline-info {
+    border-bottom: none;
+  }
+}
